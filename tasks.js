@@ -1,5 +1,3 @@
-
-
 let taskList = [];
 
 let taskIdCounter = 1;
@@ -79,11 +77,11 @@ const main = () => {
             removeTask(parseInt(param));
             break;
         default:
-            console.log("📌 Commandes disponibles :");
-            console.log("  add <tâche>      → Ajouter une tâche");
-            console.log("  list             → Afficher toutes les tâches");
-            console.log("  complete <id>    → Marquer une tâche comme terminée");
-            console.log("  remove <id>      → Supprimer une tâche");
+            console.log("Commandes disponibles :");
+            console.log("add <tâche>      → Ajouter une tâche");
+            console.log("list             → Afficher toutes les tâches");
+            console.log("complete <id>    → Marquer une tâche comme terminée");
+            console.log("remove <id>      → Supprimer une tâche");
     }
 };
 
