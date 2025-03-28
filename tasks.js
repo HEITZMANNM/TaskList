@@ -5,7 +5,7 @@ let taskIdCounter = 1;
 async function addTask(task) {
     try{
         taskList.push({id: taskIdCounter, text: task, completed: false});
-        console.log("Tache ajoutée : " + task);
+        console.log("Tache ajoutée avec succès : " + task);
         taskIdCounter++;
     }catch (error){
         console.log(error);
